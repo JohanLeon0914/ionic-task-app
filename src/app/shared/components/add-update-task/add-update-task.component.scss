@@ -1,0 +1,24 @@
+// el -- se agrega cuando e sun item del ion-item
+.item-header {
+    --padding-top: 30px;
+    ion-label {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+ion-range {
+    --bar-background: rgba(128, 128, 128, 0.281);
+    --bar-background-active: var(--ion-color-success);
+    --height: 20px;
+    //tamaño del punto que tiene la barra
+    --knbo-size: 5px;
+}
+
+.item-reorder {
+    --min-height: 32px;
+}
+
+ion-footer {
+    background: var(--ion-color-Light);
+}
